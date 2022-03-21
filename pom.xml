@@ -58,7 +58,7 @@
 					<configuration>
 						<archive>
 							<manifest>
-								<mainClass>org.recreativospiscis.nmk.PromEspressoConverter.App</mainClass>
+								<mainClass>org.recreativospiscis.PromEspressoConverter.App</mainClass>
 								<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
 								<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
 							</manifest>

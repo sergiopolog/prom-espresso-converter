@@ -14,4 +14,4 @@ Currently supported PROM types:
 
 but more types could be freely suppoted by adding a new Device class into the proper package with PROM features.
 
-Output file will contain a truth tables of all combinations of inputs and their related outputs, in espresso file format.
+Output file will contain a truth table of all combinations of inputs and their related outputs, in espresso file format.
