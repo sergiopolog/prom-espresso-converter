@@ -11,7 +11,7 @@ Currently supported PROM types:
 * 82S131
 * 82S135
 
-but more types could be freely suppoted by adding a new Device class into the proper package with PROM features.
+but more types could be freely supported by adding a new Device class into the proper package with specific PROM features.
 
 Output file will contain a truth table of all combinations of inputs and their related outputs, in espresso file format:
 
