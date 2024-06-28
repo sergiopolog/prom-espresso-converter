@@ -65,8 +65,11 @@ public class App {
 
 		// set content:
 		for (int i = 0; i < promSpecs.getByteSize(); i++) {
-			espressoFileContent.append(String.format("%-" + promSpecs.getPinCount_IN() + "s",
-					new StringBuilder(Integer.toBinaryString(i)).reverse()).replace(' ', '0'));
+			espressoFileContent
+					.append(String
+							.format("%-" + promSpecs.getPinCount_IN() + "s",
+									new StringBuilder(Integer.toBinaryString(i)).reverse())
+							.replace(' ', '0'));
 			espressoFileContent.append(" ");
 			espressoFileContent
 					.append(String
