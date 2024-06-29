@@ -7,9 +7,11 @@ Usage:
 ``java -jar prom-espresso-converter.jar <prom_type> <input_filename> [output_filename]``
 
 Currently supported PROM types:
-* 82S129
-* 82S131
-* 82S135
+* 82S123 ( 32x8)
+* 82S129 (256x4)
+* 82S131 (512x4)
+* 82S135 (256x8)
+* 82S147 (512x8)
 
 but more types could be freely supported by adding a new Device class into the proper package with specific PROM features.
 
